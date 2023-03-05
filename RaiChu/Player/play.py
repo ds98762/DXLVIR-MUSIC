@@ -179,7 +179,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**𝗖𝗿𝗼𝘄 Downloading**\n\n100% ▓▓▓▓▓▓▓▓▓▓▓▓ 00%"
+        f"**𝗗𝗛𝗜𝗠𝗔𝗡 Downloading**\n\n100% ▓▓▓▓▓▓▓▓▓▓▓▓ 00%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -200,7 +200,7 @@ async def play(c: Client, m: Message):
                 playimg = await play_thumb(videoid)
                 queueimg = await queue_thumb(videoid)
                 await suhu.edit(
-                            f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n100% ▓▓▓▓▓▓▓▓▓▓▓▓0%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝗗𝗛𝗜𝗠𝗔𝗡 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥**\n\n**Title**: {title[:22]}\n\n100% ▓▓▓▓▓▓▓▓▓▓▓▓0%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                 format = "bestaudio"
                 abhi, ytlink = await ytdl(format, url)
@@ -215,13 +215,13 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=queueimg,
-                            caption=f"⏳ Added to Queue at {pos}\n\n👤Requested By:{requester}\nInformation- [Here]({info})",
+                            caption=f"⏳ Added to Queue at {pos}\n\n🥀𝙍𝙀𝙌𝙐𝙀𝙎𝙏𝙀𝘿 𝘽𝙔 =:{requester}\nInformation- [Here]({info})",
                             reply_markup=InlineKeyboardMarkup(keyboard),
                         )
                     else:
                         try:
                             await suhu.edit(
-                            f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n0% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝗗𝗛𝗜𝗠𝗔𝗡 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥**\n\n**Title**: {title[:22]}\n\n0% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
 
@@ -247,7 +247,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=playimg,
-                                caption=f"📡 Started Streaming Audio 💡\n\n👤Requested By:{requester}\nInformation- [Here]({info})",
+                                caption=f"📡 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗦𝗧𝗥𝗘𝗔𝗠𝗜𝗡𝗚 𝗔𝗨𝗗𝗜𝗢 💡\n\n🥀𝙍𝙀𝙌𝙐𝙀𝙎𝙏𝙀𝘿 𝘽𝙔 =:{requester}\nInformation- [Here]({info})",
                                 reply_markup=InlineKeyboardMarkup(keyboard),
                             )
                         except Exception as ep:

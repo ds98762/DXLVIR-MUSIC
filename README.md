@@ -16,7 +16,7 @@
            THEN PLAY** 🐒
 
 ## ⚡HAVE ANY DOUBT..??⚡
-ANY DOUBT DM TO 👉 [❤️ᴅʜɪᴍᴀɴ❤️](https://t.me/I_DXLVIR)
+ANY DOUBT DM TO 👉 [❤️𝗗𝗛𝗜𝗠𝗔𝗡❤️](https://t.me/I_DXLVIR)
 
 ## 🛠 Available Commands:
 

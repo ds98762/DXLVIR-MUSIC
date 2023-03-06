@@ -67,7 +67,7 @@ async def start(_, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        "ᴅʜɪᴍᴀɴ 🕊️",
+                        "🌸 ᴅʜɪᴍᴀɴ 🕊️",
                         url=f"https://t.me/I_DXLVIR",
                     )
                 ]

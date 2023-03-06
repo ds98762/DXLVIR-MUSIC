@@ -1,6 +1,6 @@
 
 
-<p align="center"><a href="https://t.me/TG_FRIENDSS"><img src="https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/TG_FRIENDSS"><img src="https://telegra.ph/file/0fc760cb0777ea04b7dfe.jpg" width="300"></a></p>
  
 
 

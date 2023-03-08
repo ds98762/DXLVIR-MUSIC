@@ -16,9 +16,9 @@ async def run_speedtest(_, message):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = await m.edit("🔥 __running download speedtest__")
+        m = await m.edit("🔥 __𝗥𝗨𝗡𝗡𝗜𝗡𝗚 𝗨𝗣𝗟𝗢𝗔𝗗 𝗦𝗣𝗘𝗘𝗗𝗧𝗘𝗦𝗧__")
         test.download()
-        m = await m.edit("🔥 __running upload speedtest__")
+        m = await m.edit("🔥 __𝗥𝗨𝗡𝗡𝗜𝗡𝗚 𝗨𝗣𝗟𝗢𝗔𝗗 𝗦𝗣𝗘𝗘𝗗𝗧𝗘𝗦𝗧___")
         test.upload()
         test.results.share()
     except speedtest.ShareResultsConnectFailure:
@@ -27,7 +27,7 @@ async def run_speedtest(_, message):
         await m.edit_text(e)
         return
     result = test.results.dict()
-    m = await m.edit_text("💠 Sharing Speedtest")
+    m = await m.edit_text("💠 𝗦𝗛𝗔𝗜𝗥𝗜𝗡𝗚 𝗦𝗣𝗘𝗘𝗗𝗧𝗘𝗦𝗧")
     if result["share"]:
         path = wget.download(result["share"])
         try:

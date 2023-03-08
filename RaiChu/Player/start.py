@@ -45,7 +45,7 @@ async def start(_, message: Message):
 ┏━━━━━━ • ✿ • ━━━━━━┓
 ┣★ ᴏᴡɴᴇʀ : [ᴅʜɪᴍᴀɴ 👒](https://t.me/i_dxlvir)
 ┣★ ғᴇᴇʟɪɴɢs : [ᴄʟɪᴄᴋ ʜᴇʀᴇ 😘](https://t.me/DHIMAN_FEELINGS)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ 🫰🏻❤️](https://t.me/S_0_P_H)
+┣★ sᴜᴘᴘᴏʀᴛ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ 🫰🏻❤️](https://t.me/CHATTING_GRUP001)
 ┗━━━━━━ • ✿ • ━━━━━━┛
 
 🎗 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ sᴜᴘᴇʀ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ 🎧🍷
@@ -60,10 +60,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                       "🖤 ᴊᴏɪɴ ʙᴀʙʏ 🖤", url=f"https://t.me/ABOUT_VISHU"
+                       "🖤 ᴊᴏɪɴ ʙᴀʙʏ 🖤", url=f"https://t.me/DHIMAN_FEELINGS"
                     ),
                     InlineKeyboardButton(
-                       "🖤 ᴅʜɪᴍᴀɴ ᴄʜᴀᴛᴛɪɴɢ 🖤", url=f"https://t.me/S_0_P_H"
+                       "🖤 ᴅʜɪᴍᴀɴ ᴄʜᴀᴛᴛɪɴɢ 🖤", url=f"https://t.me/CHATTING_GRUP001"
                     )
                 ],[
                     InlineKeyboardButton(
